@@ -1,0 +1,87 @@
+######################################### LAB 2 #########################################
+WSZYSTKIE ZADANIA ZROBIONE
+
+----------------------------------------- zad1 -----------------------------------------
+  Uruchomić WinGHCi lub GHCi i sprawdzić:
+
+    2489*981
+    :t 2489*981
+    (+) 245 900
+    315^10
+    :t 315^10
+    (^) 315 10
+    round 5.4
+    :t round(5.4)
+    succ 6
+    :t succ 6
+    truncate pi
+    :t truncate pi
+    compare (sqrt 3) (sqrt 6)
+    :t compare (sqrt 3) (sqrt 6)
+    (compare 4 5) = = EQ
+    :type (True,”pf”)
+    :type (||)
+    null “abcd”
+    :t null
+    :t null “abcd”
+    fst(1,’a’)
+    fst(‘a’,1)
+    :t fst(1,’a’)
+    :t fst(‘a’,1)
+    :type fst
+    let liczby =[3,4,5]
+    2:liczby
+    0:1:2:liczby ”OLA”
+    ‘O’:’L’:’A’
+    “Ala”++”i”++”Ola”
+    :type “Ala”++”i”++”Ola”
+    :t sin
+    :t pi
+    :t (&&)
+    True && False
+    :t True && False
+
+
+
+----------------------------------------- zad2 -----------------------------------------
+  Napisz funkcję w Haskellu:
+    a) obliczającą wartość funkcji f(x), gdzie:
+                  | x^2 , jeśli x >2
+          f(x) = {  x -1, jeśli 0 < x <= 2
+                  | |x|, jeśli x <= 0
+    b) znajdującą największy wspólny dzielnik dwóch liczb
+    c) znajdującą najmniejszą wspólną wielokrotność dwóch liczb
+    d) sprawdzającą, czy dla trzech danych długości odcinków można zbudować trójkąt
+    e) obliczającą objętość stożka (dane: promień podstawy i wysokość)
+    f) obliczającą tworzącą stożka (dane: promień podstawy i wysokość)
+    g) obliczającą potęgę an
+    (a≠0, n-liczba naturalna) (definicja rekurencyjna)
+    h) obliczającą potęgę an
+    (a≠0, n-liczba naturalna) (definicja „akumulatorowa” -
+    rekurencja ogonowa)
+    i) sprawdzającą, czy dana liczba jest 10-tym elementem ciągu Fibonacciego
+    j) sprawdzającą, czy dana liczba z przedziału <5,100> jest elementem ciągu
+    Fibonacciego
+
+
+
+----------------------------------------- zad3 -----------------------------------------
+  Napisać funkcję dodającą dany element:
+    a) na początek listy,
+    b) jako drugi element listy,
+    c) na koniec listy
+
+
+
+----------------------------------------- zad4 -----------------------------------------
+  Napisać funkcje zwracające:
+    a) drugi element listy,
+    b) trzeci element listy,
+    c) przedostatni element listy
+
+
+
+
+---------------------------------------- Koniec ----------------------------------------
+Rozdziały:
+listy: http://learnyouahaskell.com/starting-out#an-intro-to-lists

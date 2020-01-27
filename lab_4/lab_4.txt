@@ -1,0 +1,59 @@
+######################################### LAB 4 #########################################
+BRAK ZADAN:
+  WSZYSTKICH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+----------------------------------------- zad1 -----------------------------------------
+  Napisać moduł Mojzbior z funkcjami podzbior, iloczyn, suma, roznica (podzbiór,
+  iloczyn zbiorów, suma zbiorów, różnica zbiorów odpowiednio).
+    Przykład:
+      podzbior [1,2,3] [5,2,6,1,8,3] = True
+      podzbior [1,2,3] [5,1,6,2,4] = False
+      iloczyn [1,2,3,4] [5,3,8,7,1] = [1,3]
+      suma [1,2,3,4] [5,3,2,7,1] = [1,2,3,4,5,7]
+      roznica [1,2,3,4] [5,3,2,7,1] = [4]
+      roznica [5,3,2,7,1] [1,2,3] = [5,7]
+
+  Napisać program (osobny plik hs), w którym można używać funkcji zdefiniowanych
+  w module Mojzbior.
+
+
+----------------------------------------- zad2 -----------------------------------------
+  Napisać funkcję, która dla drzewa binarnego d zwraca True, gdy drzewo ma w węzłach
+  liczby całkowite i wszystkie elementy w lewym poddrzewie są mniejsze od liczby
+  w korzeniu, a w prawym poddrzewie – większe.
+
+
+----------------------------------------- zad3 -----------------------------------------
+  Dla danej listy l wypisać listę par [(element, liczba wystąpień), …].
+  Przykład: w [2,3,4,1,2,5,3,2,4,4,2 ] = [(2,4),(3,2),(4,3),(1,1),(5,1)]
+   w [‘a’,’a’,’b’,’a’] = [(‘a’,3),(‘b’,1)]
+
+
+----------------------------------------- zad4 -----------------------------------------
+   Funkcja zip tworzy listę krotek z elementów list wejściowych, unzip działa odwrotnie.
+   zip :: [a] -> [b] -> [(a,b)]
+   unzip :: [(a, b)] -> ([a], [b])
+
+   Przykładowe wyjscie z konsoli:
+       *Main> zip [1, 2] "abc"
+       [(1, 'a'), (2, 'b')]
+
+       *Main> unzip [(1, 'a'), (2, 'b')]
+       ([1,2], "ab")
+  Napisać definicje tych funkcji.
+
+
+----------------------------------------- zad5 -----------------------------------------
+  Zapisać kolejność obliczeń wartości każdej z funkcji (TODO: dopisac przykłady z wykładu):
+    a) foldr (/) 2 [6,12,24,8]
+    b) foldr (&&) True [1>2,3>2,5==5]
+    c) foldr max 18 [3,6,12,4,55,11]
+    d) foldr max 81 [3,6,12,4,55,11]
+    e) foldr (\x y -> (x+y)/2) 54 [24,4,10,6]
+    f) foldl (\x y -> (x+y)/2) 54 [2,4,10,6]
+    g) foldl (/) 64 [4,2,4]
+    h) foldl (\x y -> 2*x + y) 8 [1,2,3]
+  Sprawdzić w Haskellu, czy wyniki są prawidłowe.
+
+
+---------------------------------------- Koniec ----------------------------------------

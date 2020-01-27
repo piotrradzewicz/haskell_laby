@@ -1,0 +1,65 @@
+######################################### LAB 2 #########################################
+WSZYSTKIE ZADANIA ZROBIONE
+
+----------------------------------------- zad1 -----------------------------------------
+Napisać funkcję przestawiającą elementy listy w odwrotnym porządku (bez użycia reverse)
+
+
+----------------------------------------- zad2 -----------------------------------------
+Napisać funkcję przestawiającą w liście ostatni element z pierwszym.
+
+
+----------------------------------------- zad3 -----------------------------------------
+Napisać funkcję obliczającą:
+  a) liczbę dodatnich parzystych elementów dowolnej listy liczbowej,
+  b) liczbę liczb podzielnych przez 3 z przedziału <1,n>, np. f(7)=2,
+  c) sumę liczb podzielnych przez 3 z przedziału <1,n>, np. f(7)=9.
+
+
+----------------------------------------- zad4 -----------------------------------------
+Napisać funkcję sprawdzającą, czy lista ma parzystą liczbę elementów.
+
+
+----------------------------------------- zad5 -----------------------------------------
+Zdefiniować funkcję podnoszącą do kwadratu wszystkie elementy danej listy liczb
+całkowitych, np. sqrlist [1,2,-3] zwraca [1, 4, 9].
+  a) z użyciem map,
+  b) bez użycia map.
+
+
+----------------------------------------- zad6 -----------------------------------------
+Zdefiniować polimorficzną funkcję obliczającą, ile razy dany obiekt występuje w danej
+liście, np. count('a', ['a', 'l', 'a']) zwraca 2. Jaki jest typ tej funkcji?
+
+
+----------------------------------------- zad7 -----------------------------------------
+Zdefiniować polimorficzną funkcję powtarzającą dany obiekt określoną liczbę razy
+i zwracającą wynik w postaci listy, np. duplicate("ppd",3) zwraca ["ppd","ppd","ppd"].
+Jaki jest typ tej funkcji?
+
+
+----------------------------------------- zad8 -----------------------------------------
+Zdefiniować polimorficzną funkcję sprawdzającą, czy dana lista jest palindromem, tj. równa
+się sobie samej przy odwróconej kolejności elementów.
+
+
+----------------------------------------- zad9 -----------------------------------------
+Zdefiniować polimorficzną funkcję usuwającą pierwsze wystąpienie danego elementu
+w liście.
+
+
+----------------------------------------- zad10 -----------------------------------------
+Zdefiniować polimorficzną funkcję usuwającą element na n-tym miejscu w liście.
+
+
+----------------------------------------- zad11 -----------------------------------------
+Napisać definicję dwuargumentowej funkcji określonej dla list, której wartością jest prawda,
+jeśli wszystkie elementy pierwszej listy występują na drugiej liście.
+
+
+----------------------------------------- zad12 -----------------------------------------
+Napisać definicję funkcji, której argumentem jest lista krotek 2-elementowych, a wartością
+lista krotek z przestawionymi elementami, np. wartością zamiana [(1,’a’),(2,’b’)]
+jest [(’a’,1),( ’b’,2)].
+
+---------------------------------------- Koniec ----------------------------------------

@@ -1,0 +1,25 @@
+######################################### LAB 5 #########################################
+BRAK ZADAN:
+  WSZYSTKICH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+----------------------------------------- zad1 -----------------------------------------
+  Napisać program, który będzie pytał o dwie liczby, a następnie wypisze ich sumę, iloczyn
+  i różnicę.
+
+
+----------------------------------------- zad2 -----------------------------------------
+  Napisać program, który będzie pytał o dwie liczby, a następnie wypisze ich największy
+  wspólny dzielnik i najmniejszą wspólną wielokrotność.
+
+
+----------------------------------------- zad3 -----------------------------------------
+  Napisać program, który będzie pytał o imię i nazwisko, a następnie wypisze inicjały imienia
+  i nazwiska.
+
+
+----------------------------------------- zad4 -----------------------------------------
+  Napisać program „grę”, który prosi użytkownika o podanie liczby z zakresu 0-99
+  i podpowiada, czy wprowadzona liczba jest większa, czy mniejsza od ustalonej liczby.
+  Program kończy działanie w przypadku odgadnięcia liczby lub po 10 próbach.
+
+---------------------------------------- Koniec ----------------------------------------

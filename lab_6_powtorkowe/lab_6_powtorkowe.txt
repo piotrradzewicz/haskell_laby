@@ -1,0 +1,59 @@
+######################################### POWTÓRKOWE #########################################
+BRAK ZADAN:
+  WSZYSTKICH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+----------------------------------------- zad1 -----------------------------------------
+Napisać definicję funkcji obliczającej n-ty wyraz ciągu danego wzorem an=an-1+2an-2 (a1=0,
+a2=5) a) rekurencyjną, b) w wersji „akumulatorowej”.
+
+
+----------------------------------------- zad2 -----------------------------------------
+Napisać definicję funkcji, która w liście przestawia a) pierwszy element z drugim, b) pierwszy
+element z ostatnim, c) drugi element z przedostatnim.
+
+
+----------------------------------------- zad3 -----------------------------------------
+Napisać definicję funkcji, której wartością jest liczba wystąpień elementu d w liście l.
+Np. f ‘a’ [‘a’,’b’,’a’,’c’,’a’]=3
+
+
+----------------------------------------- zad4 -----------------------------------------
+Napisać funkcję sprawdzającą równość dwóch list.
+Np. f [1,2,3,4] [1,2,3,4]=True
+ f [1,2,3,4] [4,3,2,1]=False
+
+
+ ----------------------------------------- zad5 -----------------------------------------
+Napisać funkcję sprawdzającą równość dwóch zbiorów.
+Np. f [1,2,3,4] [4,3,2,1]=True
+ f [1,2,3,4] [5,1,2,3]=False
+
+
+ ----------------------------------------- zad6 -----------------------------------------
+Napisać funkcję, która dla dwóch uporządkowanych niemalejąco list liczbowych l1 i l2 daje
+w wyniku uporządkowaną niemalejąco listę elementów z list l1 i l2 .
+Np. f [1,3,5,8,10] [0,2,6,9]=[0,1,2,3,5,6,8,9,10]
+
+
+----------------------------------------- zad7 -----------------------------------------
+Napisać funkcję, która dla dwóch drzew binarnych d1 i d2 zwraca wartość True, gdy drzewo
+d1 jest poddrzewem drzewa d2.
+
+
+----------------------------------------- zad8 -----------------------------------------
+Dla danej listy l wypisać listę par [(element, liczba wystąpień), …].
+Np. f [2,3,4,1,2,5,3,2,4,4,2 ] = [(2,4),(3,2),(4,3),(1,1),(5,1)]
+ f [‘a’,’a’,’b’,’a’] = [(‘a’,3),(‘b’,1)]
+
+
+----------------------------------------- zad9 -----------------------------------------
+Dla danej listy par (x,y) należy zwrócić listę tych par posortowaną wg odległości od punktu
+(0, 0).
+Np. f [(0,3),(1,1),(2,1),(1,0)] = [(1,0),(1,1),(2,1),(0,3)]
+
+
+----------------------------------------- zad10 -----------------------------------------
+Napisać funkcję sortującą elementy listy metodą „bąbelkową”.
+
+
+---------------------------------------- Totalny Koniec ----------------------------------------
