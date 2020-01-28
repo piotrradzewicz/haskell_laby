@@ -9,8 +9,6 @@ do pisania polecam atom z zainsatlowanymi paczkami:
 Jedyne sensowne źródło i które było polecane:
   http://learnyouahaskell.com/chapters
 
-BRAK ZADAN:
-  LAB_3   brak: zad_5_a, zad_5_b, zad_6
-  lab 4 totalny None
-  lab 5 totlany None
-  lab 6_powtórkowe totalny None
+
+[AKTUALIZACJA]
+SĄ WSZYSTKIE ZADANIA ROZWIAZANE W PLIKACH lista_1.hs; lista_2.hs; lista_3.hs; lista_4.hs; lista_5.hs; lista_6.hs  

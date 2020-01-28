@@ -1,6 +1,5 @@
 ######################################### POWTÓRKOWE #########################################
-BRAK ZADAN:
-  WSZYSTKICH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+WSYZSTKIE ZROBIONE w lista6.hs
 
 ----------------------------------------- zad1 -----------------------------------------
 Napisać definicję funkcji obliczającej n-ty wyraz ciągu danego wzorem an=an-1+2an-2 (a1=0,
