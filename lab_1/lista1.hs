@@ -4,7 +4,7 @@ pkta:: Int -> Int
 pkta x
         |x>2=x^2
         |(0<x && x<=2) = x-1
-        |x<=0=x
+        |x<=0=x*(-1)
 
 -- podpunkt b
 nwd:: Int -> Int -> Int
